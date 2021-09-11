@@ -1,0 +1,99 @@
+
+/* to comment out is CTRL + K + C (windows) */
+/* To Uncomment CTRL + K + U (windows)*/
+
+/* Standard Cleanup */
+body{
+    background-color:orangered;
+    margin: 0;
+    padding:0;
+    font-family: helvetica;
+}
+
+ul{
+padding: 0;
+margin: 0;
+}
+
+li{
+list-style: none;
+}
+
+header{
+background-color: rgb(188, 219, 188);
+height: 100px;
+/* background-image: url("") */
+}
+
+h1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(2, 53, 2);
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav li a{
+    color: rgb(2, 53, 2);
+    text-shadow: 2px 2px 1px white;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav li a:hover {
+    color: white;
+    text-shadow: 2px 2px 1px rgb(2, 53, 2);
+}
+
+main{
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700px;
+}
+
+/* target ids through the # sign */
+#hero{
+width: 960px;
+border: 3px solid black;
+border-radius: 30px;
+box-shadow: -15px 25px 50px rgb(2, 53, 2);
+}
+
+p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.featureImage{
+    width: 300px;
+    height: 200px;
+}
+
+main li{
+    float: left;
+    margin-right: 30px;
+}
+
+main li:last-child{
+    margin-right: 0;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(188, 219, 188);
+    clear: both;
+
+}
+
+footer p{
+    clear: left;
+    padding-top: 30px;
+}
